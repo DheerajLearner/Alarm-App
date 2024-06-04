@@ -1,0 +1,126 @@
+/* alarm outer structure container  */
+
+
+.alarm-body-container{
+    margin:7rem 30rem;
+    /* border:2px solid black; */
+    height:28rem;
+    border-radius:17%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5), -5px -5px 20px 10px rgba(249, 9, 4, 0.2), 5px 5px 20px 10px rgba(100, 204, 25, 0.2);
+    padding:15px 35px;
+    width:27rem;
+    background: linear-gradient(rgba(7, 19, 237, 0.683), rgba(6, 55, 228, 0.637));
+    color:aliceblue
+}
+.current-time{
+    /* border: 1px solid black; */
+    height: 15%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:2.2rem
+}
+.set-alarm{
+    height:10%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.8rem;
+    /* border:1px solid black; */
+    padding:5px 10px;
+}
+.alarm-time{
+    height: 90%;
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content: space-between; */
+    /* border:1px solid black; */
+    width:55%;
+    padding:2px 3px;
+}
+.alarm-time-sec{
+    height:90%;
+    width:24.5%;
+    /* border:1px solid black; */
+    text-align: center;
+    font-size: 0.7rem;
+    background: linear-gradient(rgba(7, 19, 237, 0.683), rgba(6, 55, 228, 0.637));
+    color:aliceblue
+}
+
+.alarm-time-sec option{
+    color:black
+}
+
+/* .symbol {
+    margin-right: 0px; 
+    font-size: 24px;   
+    color: black;      
+} */
+.set-alarm-button{
+    height: 80%;
+    /* border:1px solid black; */
+    width:31%;
+    background-color:rgba(2, 103, 68, 0.874);
+    color:aliceblue;
+    border-radius:8px;
+
+}
+
+.alarm-section{
+    height:60%;
+    /* border:1px solid black; */
+    margin-top:10px;
+    padding:8px 6px;
+    position:relative;
+}
+.alarm-section-container{
+    height:80%;
+    /* border:1px solid black; */
+    overflow-y: scroll;
+
+}
+.alarms{
+    height: 12%;
+    /* border:1px solid black; */
+    padding:3px 5px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.alarm-info{
+    width:40%;
+    height:80%;
+    padding:2px 3px;
+    /* border:1px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(172, 169, 0), rgba(120, 147, 1, 0.888))
+}
+.delete-alarm{
+    width:30%;
+    height:80%;
+    padding:2px 3px;
+    /* border:1px solid black; */
+    background:linear-gradient(rgba(255, 0, 0, 0.953), rgba(168, 0, 0, 0.657));
+    color:aliceblue;
+    border-radius:5px;
+}
+.alarm-message{
+    position:absolute;
+    bottom:0%;
+    height:5vh;
+    /* border:1px solid black; */
+    color:red;
+    font-size:1.5rem;
+    margin-left:25%;
+}
+.hidden{
+    display: none;
+}

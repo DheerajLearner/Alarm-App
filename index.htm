@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Alarm Clock
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=device-width" > 
+    </head>
+    <body>
+        <div class="alarm-body-container" >
+            <div class="current-time" ></div>
+            <div class ="set-alarm" >
+                <div class = "alarm-time" >
+                    <select class="alarm-time-sec hours"></select>
+                    <select class="alarm-time-sec minutes"></select>
+                    <select class="alarm-time-sec seconds"></select>
+                    <select class="alarm-time-sec timeFormat">
+                        <option  value="AM">AM</option>
+                        <option  value="PM">PM</option>
+                    </select>
+                </div>
+                <button class="set-alarm-button" type="click">Set Alarm</button>
+            </div>
+            <div class = "alarm-section" ><b>Alarms</b>
+                <div class = "alarm-section-container" ></div>
+                <div class="alarm-message hidden" >!!ALARM RINGING</div>
+             </div>
+        </div>
+        <script src="script.js" ></script>
+    </body>
+</html>
